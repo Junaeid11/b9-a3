@@ -20,6 +20,21 @@
       .font {
         font-family: "Manrope", sans-serif;
       }
+     @media screen and (max-width:600px){
+      .las{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 120px;
+      }
+      .no header{
+        display: grid;
+        grid-template-columns: ;
+      
+      }
+
+
+     }
     </style>
     <title>Hockey's</title>
   </head>
@@ -42,7 +57,7 @@
                      
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-2xl font-extrabold">Hockey<span class="text-orange-400">’</span>s</a>
+                  <a class="btn btn-ghost text-2xl font-extrabold">Noob<span class="text-red-500">Work</span></a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 font-semibold">
@@ -53,7 +68,7 @@
                       <li><a>Contact</a></li>
                 </div>
                 <div class="navbar-end">
-                    <button class="btn btn-ghost btn-circle sm:hidden  lg:flex">
+                    <button class="btn btn-ghost btn-circle hidden  lg:flex">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                       </button>
                   <a class="btn btn-error text-white">Get Ticket</a>
@@ -61,24 +76,24 @@
               </div>
         </div>
         <div class="container mx-auto">
-            <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full h-[600px]">
+            <div class="carousel lg:w-full  ">
+                <div id="slide1" class="carousel-item relative w-full">
                   <img src="./Images/1.png" class="w-full" />
-                  <div class="absolute flex justify-start transform -translate-y-1/2 left-9 right- bottom-7">
+                  <div class="absolute flex justify-start transform -translate-y-1/2 left-[140px] -right- bottom-7">
                     <a href="#slide2" class="btn btn-circle text-white bg-black border-0">❮</a> 
                     <a href="#slide2" class="ml-5 btn btn-circle text-white bg-black border-0">❯</a>
                   </div>
                 </div> 
-                <div id="slide2" class="carousel-item relative w-full h-[600px]">
+                <div id="slide2" class="carousel-item relative w-full ">
                   <img src="./Images/2.png" class="w-full" />
-                  <div class="absolute flex justify-start transform -translate-y-1/2 left-9 right- bottom-7">
+                  <div class="absolute flex justify-start transform -translate-y-1/2 left-[140px] right- bottom-7">
                     <a href="#slide1" class="btn btn-circle text-white bg-black border-0">❮</a> 
                     <a href="#slide1" class="ml-5 btn btn-circle text-white bg-black border-0">❯</a>
                   </div>
                  
                 </div> 
         </div> 
-        <div class="bg-black p-6 w-[400px] rounded-xl relative mx-20  -right-[700px] -top-56"><h1 class="text-2xl font-semibold text-white ">Meet all the heroes from the field</h1>
+        <div class="bg-black p-6 w-[400px] rounded-xl lg:relative lg:mx-20 sm:mx-2  -right-[700px] -top-56"><h1 class="text-2xl font-semibold text-white ">Meet all the heroes from the field</h1>
             <p class="text-gray-400">"In a momentous gathering, heroes from various realms and backgrounds convened to discuss strategies."</p>
         </div>
     </header>
@@ -87,26 +102,26 @@
         <div class="container pt-4 mx-auto center justify-center text-center">
             <div>
                 <h1 class="text-3xl font-extrabold ">Professional Hockeys Club</h1>
-                <p class="py-7 px-64">The professional hockey club, adorned in their iconic jerseys, embarked on a rigorous training regimen, honing their skills and fostering camaraderie as they prepared for the upcoming championship season.</p>            </div>
+                <p class="py-7 lg:px-64">The professional hockey club, adorned in their iconic jerseys, embarked on a rigorous training regimen, honing their skills and fostering camaraderie as they prepared for the upcoming championship season.</p>            </div>
                 <hr>
             <div class="lg:flex sm:grid py-8 px-9">
                 <div  class="p-4 leading-6">
-                    <div class="radial-progress text-red-700 font-bold" style="--value:87;" role="progressbar">87%</div>
+                    <div class="radial-progress text-red-700 font-bold" style="--value:87;" role="progressbar"><span class="text-black">87%</span></div>
                     <h1 class="text-xl font-bold py-5">Prayer Facility</h1>
                     <p>The newly constructed prayer facility, with its serene architecture and welcoming ambiance</p>
                 </div>
                 <div class="p-4">
-                    <div class="radial-progress text-green-500 font-bold" style="--value:95;" role="progressbar">95%</div>
+                    <div class="radial-progress text-green-500 font-bold" style="--value:95;" role="progressbar"><span class="text-black">95%</span></div>
                     <h1 class="text-xl font-bold py-5">Experienced Coach</h1>
                     <p>Under the guidance of the experienced coach, blending strategic expertise with a profound the game.</p>
                 </div>
                 <div  class="p-4">
-                    <div class="radial-progress text-orange-300 font-bold" style="--value:90;" role="progressbar">90%</div>
+                    <div class="radial-progress text-orange-300 font-bold" style="--value:90;" role="progressbar"><span class="text-black">90%</span></div>
                     <h1 class="text-xl font-bold py-5">Senior Player</h1>
                     <p>The senior player, with years of experience etched served as a mentor and inspiration to the younger teammates,</p>
                 </div>
                 <div  class="p-4">
-                    <div class="radial-progress text-primary font-bold" style="--value:80;" role="progressbar">80%</div>
+                    <div class="radial-progress text-primary font-bold" style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
                     <h1 class="text-xl font-bold py-5">Training Ground</h1>
                     <p>At the state-of-the-art training ground, athletes engaged in intense workouts team-building exercises.</p>
                 </div>
@@ -117,12 +132,12 @@
         <div  class="pt-4 container mx-auto center justify-center text-center">
             <div>
                 <h1 class="text-3xl font-extrabold ">Program Sections</h1>
-                <p class="py-7 px-64">As part of the hockey program's development initiative, aspiring players undergo rigorous training sessions, skill-building drills, and strategic game simulations to foster their growth and prepare them for competitive play at the highest level.</p>
+                <p class="py-7 lg:px-64">As part of the hockey program's development initiative, aspiring players undergo rigorous training sessions, skill-building drills, and strategic game simulations to foster their growth and prepare them for competitive play at the highest level.</p>
             </div>
             <hr>
-            <div class="flex pt-4 px-5 justify-between text-left ">
-                <div class="card w-[600px] bg-base-100 shadow-xl image-full ">
-                    <figure><img class="w-full" src="./Images/2.png" alt="Shoes" /></figure>
+            <div class="lg:flex pt-4 lg:px-5 justify-between text-left ">
+                <div class="card lg:w-[600px] bg-base-100 my-4 mx:2 shadow-xl image-full ">
+                    <figure><img class="lg:w-full" src="./Images/2.png" alt="Shoes" /></figure>
                     <div class="card-body ">
                       <h2 class="pt-20 text-2xl font-bold">Junior Program</h2>
                       <p class="text-gray-400">
@@ -133,7 +148,7 @@
                       </div>
                     </div>
                   </div>
-                <div class="card w-[600px] bg-base-100 shadow-xl image-full">
+                <div class=" card my-4 lg:w-[600px] bg-base-100 shadow-xl image-full">
                     <figure><img class="w-full" src="./Images/3.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="pt-20 text-2xl font-bold">Teenager Program</h2>
@@ -146,8 +161,8 @@
                     </div>
                   </div>
                </div>
-               <div class="card py-5 w-full image-full text-left">
-                <figure><img class="w-full" src="./Images/4.png" alt="Shoes" /></figure>
+               <div class="card py-5 lg:w-full image-full text-left sm:my-4 sm:mx:2 ">
+                <figure><img class="lg:w-full" src="./Images/4.png" alt="Shoes" /></figure>
                 <div class="card-body">
                   <h2 class="pt-60 text-2xl font-bold">Professional Program</h2>
                   <p class="text-gray-400 w-[650px]">
@@ -161,13 +176,13 @@
               <hr>
               <div class="pt-9">
                 <h1 class="text-3xl font-extrabold ">Our New Products</h1>
-                <p class="py-7 px-64">Excitement filled the room as the company unveiled its latest innovations, showcasing a lineup of our new products designed to redefine industry standards with advanced features, enhanced performance, and a commitment to meeting the evolving needs of our customers.</p>
+                <p class="py-7 lg:px-64">Excitement filled the room as the company unveiled its latest innovations, showcasing a lineup of our new products designed to redefine industry standards with advanced features, enhanced performance, and a commitment to meeting the evolving needs of our customers.</p>
             </div>
          
-          <div class="grid pt-4 lg:grid-cols-2 pl-3 gap-5">
-            <div class=" flex bg-white rounded-lg border-2 w-[600px] space-x-2">
+          <div class="grid  pt-4 lg:grid-cols-2 pl-9 gap-5">
+            <div class="s:h-[400px] w-[330px] lg:flex bg-white rounded-lg border-2 lg:w-[600px] space-x-2">
                 <div>
-                    <img class="pt-3" src="./Images/5.png" alt="">
+                    <img class="w-[320px] h-[220px] px-5 pt-5 lg:w-[250px] lg:h-[170px]" src="./Images/5.png" alt="">
                 </div>
                <div class="p-5">
                 <div class="flex list-none ">
@@ -179,15 +194,15 @@
                     <h1 class="text-xl font-extrabold py-2">World Cup Jacket</h1>
                     <p>The jacket added a touch of sophistication to his ensemble,</p>
                 </div>
-                <div class="flex pt-2 font-semibold">
+                <div class="sm:text-left grid lg:flex pt-2 font-semibold">
                     <h4 class="text-lg text-red-500">Price-$22.00</h4>
-                    <p class="pl-10"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                    <p class="lg:pl-10"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
                 </div>
                </div>
             </div>
-            <div class=" flex bg-white rounded-lg border-2 w-[600px] space-x-2">
+            <div class=" s:h-[400px] w-[330px] lg:flex bg-white rounded-lg border-2 lg:w-[600px] space-x-2">
                 <div>
-                    <img class="pt-3" src="./Images/6.png" alt="">
+                    <img class="w-[300px] h-[220px] px-5 pt-5 lg:w-[200px] lg:h-[170px]" src="./Images/6.png" alt="">
                 </div>
                <div class="p-5">
                 <div class="flex list-none ">
@@ -205,9 +220,9 @@
                 </div>
                </div>
             </div>
-            <div class=" flex bg-white rounded-lg border-2 w-[600px] space-x-2">
+            <div class=" s:h-[400px] w-[330px] lg:flex bg-white rounded-lg border-2 lg:w-[600px] space-x-2">
                 <div>
-                    <img class="pt-5" src="./Images/7.png" alt="">
+                    <img class="w-[320px] h-[220px] px-5 pt-5 lg:w-[250px] lg:h-[170px]" src="./Images/7.png" alt="">
                 </div>
                <div class="p-5">
                 <div class="flex list-none ">
@@ -225,9 +240,9 @@
                 </div>
                </div>
             </div>
-            <div class=" flex bg-white rounded-lg border-2 w-[600px] space-x-2">
+            <div class=" s:h-[400px] w-[330px] lg:flex bg-white rounded-lg border-2 lg:w-[600px] space-x-2">
                 <div>
-                    <img class="pt-5" src="./Images/8.png" alt="">
+                    <img class="w-[320px] h-[220px] px-5 pt-5 lg:w-[250px] lg:h-[170px]" src="./Images/8.png" alt="">
                 </div>
                <div class="p-5">
                 <div class="flex list-none ">
@@ -245,9 +260,9 @@
                 </div>
                </div>
             </div>
-            <div class=" flex bg-white rounded-lg border-2 w-[600px] space-x-2">
+            <div class="s:h-[400px] w-[330px] lg:flex bg-white rounded-lg border-2 lg:w-[600px] space-x-2">
                 <div>
-                    <img class="pt-4" src="./Images/9.png" alt="">
+                    <img class="w-[320px] h-[220px] px-5 pt-5 lg:w-[250px] lg:h-[170px]" src="./Images/9.png" alt="">
                 </div>
                <div class="p-5">
                 <div class="flex list-none ">
@@ -265,9 +280,9 @@
                 </div>
                </div>
             </div>
-            <div class=" flex bg-white rounded-lg border-2 w-[600px] space-x-2">
+            <div class="s:h-[400px] w-[330px] lg:flex bg-white rounded-lg border-2 lg:w-[600px] space-x-2">
                 <div>
-                    <img class="pt-3" src="./Images/10.png" alt="">
+                    <img class="w-[320px] h-[220px] px-5 pt-5 lg:w-[250px] lg:h-[170px]" src="./Images/10.png" alt="">
                 </div>
                <div class="p-5">
                 <div class="flex list-none ">
@@ -288,13 +303,13 @@
         </div>  
         <div class="pt-9"> <hr>
             <h1 class="text-3xl font-extrabold ">Clients Question</h1>
-            <p class="py-7 px-64">The client's thoughtful question prompted a meaningful discussion, allowing us to address their concerns and tailor our approach to better meet their needs.</p>
+            <p class="py-7 lg:px-64">The client's thoughtful question prompted a meaningful discussion, allowing us to address their concerns and tailor our approach to better meet their needs.</p>
         </div>
-        <div class="flex border-2 bg-base-200 rounded-xl">
-            <div class="pl-5 py-4">
+        <div class="sm:p-4 lg:flex border-2 bg-base-200 rounded-xl">
+            <div class="lg:pl-5 py-4">
                 <img src="./Images/11.png" alt="">
             </div>
-            <div class="w-[900px] text-left pr-5">
+            <div class="lg:w-[900px] text-left pr-5">
                 <div class="collapse collapse-plus bg-base-200">
                     <input type="radio" name="my-accordion-3" checked="checked" /> 
                     <div class="collapse-title text-xl font-extrabold">
@@ -360,10 +375,10 @@
 </div>
 <div class="pt-9"> <hr>
     <h1 class="text-3xl font-extrabold ">Get In Touch</h1>
-    <p class="py-7 px-64">Feel free to get in touch with our customer support team for any inquiries or assistance; we're here to help you every step of the way.</p><hr>
+    <p class="py-7 lg:px-64">Feel free to get in touch with our customer support team for any inquiries or assistance; we're here to help you every step of the way.</p><hr>
 </div>
-      <div class="flex">
-        <div class="px-10 py-4 bg-slate-50">
+      <div class="lg:flex">
+        <div class="px-7 py-4 bg-slate-50">
             <div class="text-left p-7 space-y-5 bg-[#b2db7144] w-[350px]">
                 <img src="./Images/Group 1171275317.png" alt="">
                 <p>Phone Number</p>
@@ -380,7 +395,7 @@
                 <h1 class="text-xl font-extrabold">Agrabad,Chattogram</h1>
             </div>
         </div>
-        <div class="grid lg:grid-cols-2 h-96 px-20 py-10 ">
+        <div class="lg:grid lg:grid-cols-2  px-20 py-10 ">
             <div class="text-left">
                 <h1 class="py-2 font-extrabold text-xl">Your Name</h1>
                 <input type="text" placeholder="Enter your full name" class="input input-bordered w-[300px] border-0" />
@@ -397,10 +412,11 @@
                 <h1 class="py-2 font-extrabold text-xl">Phone Number</h1>
                 <input type="text" placeholder="Enter your phone number" class="input input-bordered w-[300px] border-0" />
             </div>
-           <div class="grid">
+           <div class=" grid">
             <div class="text-left py-4">
-                <h1 class="py-2 font-extrabold text-xl">Messege</h1><textarea id="message" rows="4" class="block p-2.5 w-[800px] h-[250px] border-0" placeholder="Your message..."></textarea>
-             </div>            <button class="btn bg-red-500 text-white w-full">Send Message</button>
+                <h1 class="py-2 font-extrabold text-xl">Messege</h1><textarea id="message" rows="4" class="block p-2.5 lg:w-[800px] lg:h-[250px] border-0" placeholder="Your message..."></textarea>
+             </div>           
+              <button class="btn bg-red-500 text-white w-full">Send Message</button>
             </div> 
         </div>
       </div>
@@ -424,19 +440,21 @@
           <a class="link link-hover flex gap-3"><img src="./Images/Frame (4).png" alt="">
         (+62) 123-321-543</a>
         </nav> 
-        <nav>
-          <header class="footer-title">Company</header> 
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
-        </nav> 
-        <nav>
-          <header class="footer-title">Support</header> 
-          <a class="link link-hover">Terms of use</a>
-          <a class="link link-hover">Privacy policy</a>
-          <a class="link link-hover">Cookie policy</a>
-        </nav><nav>
+      <nav>
+        <header class="footer-title flex-col ">Company</header> 
+        <a class="link link-hover ">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      <nav class="no">
+        <header class="footer-title">Support</header> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+        <nav class="las">
+       
           <header class="footer-title">Services</header> 
           <a class="link link-hover">Branding</a>
           <a class="link link-hover">Design</a>
